@@ -1,0 +1,27 @@
+nav {
+    text-align: center;
+    background-color: #613192;
+    padding: .3%;
+    font-size: 14pt;
+    color : white;
+    
+}
+a:visited {
+    color: #fff;
+}
+a:hover{
+    color: #adadad
+}
+.profpic{
+display: block;
+margin-top: 40px;
+margin-left: 565px;
+height: 350px;
+border-radius: 50%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
