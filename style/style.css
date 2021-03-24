@@ -15,7 +15,7 @@ a:hover{
 .profpic{
 display: block;
 margin-top: 40px;
-margin-left: 565px;
+margin: auto;
 height: 350px;
 border-radius: 50%;
 }
