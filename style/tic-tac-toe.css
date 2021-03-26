@@ -1,3 +1,31 @@
+#rules{
+    text-align: center;
+    border: solid rgb(130, 236, 130) 5px;
+    background-color: rgb(160, 255, 160);
+    height: 20px;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+
+#rulesBox{
+    background-color:  rgb(207, 252, 207);
+    height: 0px;
+    text-align: center;
+    font-size: 0px;
+    line-height: 50px;
+    width: 250px;
+    transition: 4s
+}
+
+#rules:hover + #rulesBox{
+    height: 280px;
+    font-size: 16px;
+}
+
 #container{
     display:grid;
     width: 350px;
@@ -66,7 +94,7 @@
     text-align: center;
 }
 
-#button
+#play
 {
     margin: 30px auto;
     text-align: center;

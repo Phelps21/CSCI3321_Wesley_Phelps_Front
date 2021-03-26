@@ -43,15 +43,15 @@ function isOver(spot){
         || s3.innerHTML !== '' && s3.innerHTML === s5.innerHTML && s5.innerHTML === s7.innerHTML){  // <= second diagonal
         gameOver = true;
         result.innerHTML = "Player " + spot.innerHTML + " wins"
-        button.style.display = "block"
-        button.innerHTML = "Play Again"
+        play.style.display = "block"
+        play.innerHTML = "Play Again"
         }
     
     else if (spotsLeft === 0){
         tie = true
         result.innerHTML = "Its a tie"
-        button.style.display = "block"
-        button.innerHTML = "Play Again"
+        play.style.display = "block"
+        play.innerHTML = "Play Again"
     }
         
         
@@ -64,7 +64,7 @@ function isOver(spot){
 function updateGameStatus(){
     gameOver = false
     tie = false
-    button.style.display = "none"
+    play.style.display = "none"
     document.getElementById('space-1').innerHTML = ''
     document.getElementById('space-2').innerHTML = ''
     document.getElementById('space-3').innerHTML = ''
