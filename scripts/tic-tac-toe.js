@@ -45,7 +45,7 @@ function isOver(spot){
         result.innerHTML = "Player " + spot.innerHTML + " wins"
         play.style.display = "block"        // Show the play button again
         play.style.marginTop = "-130px"     // If this wasn't here the button would be in the board
-        play.innerHTML = "Play Again"
+        play.innerHTML = "Replay"
         }
     
     else if (spotsLeft === 0){
@@ -53,7 +53,7 @@ function isOver(spot){
         result.innerHTML = "Its a tie"
         play.style.display = "block"
         play.style.marginTop = "-130px"
-        play.innerHTML = "Play Again"
+        play.innerHTML = "Replay"
     }
         
         
