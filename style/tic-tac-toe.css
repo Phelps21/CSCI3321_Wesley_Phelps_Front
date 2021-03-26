@@ -1,31 +1,3 @@
-#rules{
-    text-align: center;
-    border: solid rgb(130, 236, 130) 5px;
-    background-color: rgb(160, 255, 160);
-    height: 20px;
-    width: 100px;
-    font-size: 18px;
-    text-align: center;
-    line-height: 25px;
-    cursor: pointer;
-}
-
-
-#rulesBox{
-    background-color:  rgb(207, 252, 207);
-    height: 0px;
-    text-align: center;
-    font-size: 0px;
-    line-height: 50px;
-    width: 250px;
-    transition: 4s
-}
-
-#rules:hover + #rulesBox{
-    height: 280px;
-    font-size: 16px;
-}
-
 #container{
     display:grid;
     width: 350px;
@@ -89,14 +61,41 @@
     grid-area: space9;
 }
 
+#rules{
+    text-align: center;
+    border: solid rgb(130, 236, 130) 5px;
+    background-color: rgb(160, 255, 160);
+    height: 20px;
+    width: 100px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    position:inherit;
+}
+
+#rulesBox{
+    background-color:  rgb(207, 252, 207);
+    height: 200px;
+    text-align: center;
+    font-size: 0px;
+    line-height: 50px;
+    width: 0px;
+    transition: 2s
+}
+
+#rules:hover + #rulesBox{
+    font-size: 16px;
+    width: 400px;
+}
+
 #result{
-    margin: auto;
+    position: relative;
+    margin: -100px auto;
     text-align: center;
 }
 
-#play
-{
-    margin: 30px auto;
+#play{
+    margin: -210px auto ;
     text-align: center;
     border: solid #422d6d 5px;
     background-color: #61429d;
@@ -107,4 +106,6 @@
     text-align: center;
     line-height: 70px;
     cursor: pointer;
+    top: absolute;
+    bottom: absolute;
 }

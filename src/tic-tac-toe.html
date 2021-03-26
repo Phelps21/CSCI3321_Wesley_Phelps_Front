@@ -10,11 +10,7 @@
 </head>
 
 <body>
-    <div id="rules">Rules</div>
-    <div id="rulesBox">
-        The first player to get 3 marks in a row wins (whether they get it vertically, horizontally, or diagonally).
-        If no one wins and all 9 squares are occupied, the game results in a tie.
-    </div>
+    
     <div id="container">
         <div class="square" id="space-1" onclick="placeMarker('space-1')"></div>
         <div class="square" id="space-2" onclick="placeMarker('space-2')"></div>
@@ -26,9 +22,13 @@
         <div class="square" id="space-8" onclick="placeMarker('space-8')"></div>
         <div class="square" id="space-9" onclick="placeMarker('space-9')"></div>
     </div>
+    <div id="rules">Rules</div>
+    <div id="rulesBox">
+        The first player to get 3 marks in a row wins (whether they get it vertically, horizontally, or diagonally).
+        If no one wins and all 9 squares are occupied, the game results in a tie.
+    </div>
     <p id="result"></p>
     <div id="play" onclick="updateGameStatus()">Play</div>
-
 </body>
 
 </html>
